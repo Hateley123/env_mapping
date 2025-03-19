@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/snarasim/env_mapping/env_mapping/dummy.csproj": {}
+  },
+  "projects": {
+    "/home/snarasim/env_mapping/env_mapping/dummy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/snarasim/env_mapping/env_mapping/dummy.csproj",
+        "projectName": "dummy",
+        "projectPath": "/home/snarasim/env_mapping/env_mapping/dummy.csproj",
+        "packagesPath": "/home/snarasim/.nuget/packages/",
+        "outputPath": "/home/snarasim/env_mapping/env_mapping/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/snarasim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.7.0, )"
+            },
+            "OctaneSDK": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
